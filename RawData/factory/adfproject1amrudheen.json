@@ -1,0 +1,9 @@
+{
+	"name": "adfproject1amrudheen",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a4aab0a5-1e3e-496c-8749-ef78d6542a82",
+		"tenantId": "fc6c6979-b8c7-4191-9756-ef8f439bf7dd"
+	}
+}
