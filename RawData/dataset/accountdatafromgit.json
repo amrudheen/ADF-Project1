@@ -1,0 +1,22 @@
+{
+	"name": "accountdatafromgit",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnkkedsrvctogit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/amrudheen/ADF-Project1/refs/heads/dev/accounts.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
